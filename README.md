@@ -4,7 +4,6 @@ A simple little tracker for tasks made into a browser extension for Chrome-based
 <br>
 Simple, yet functional.
 
-<br>
 ## Improvements to be done: 
 <ol>
 <li>Save out the tasks on a refresh so they don't disappear.</li>
