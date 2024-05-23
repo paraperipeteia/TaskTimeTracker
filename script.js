@@ -83,7 +83,6 @@ function GenerateTaskStartTime(task){
 
 function GenerateTaskWidget(task) {
     var displayTime = GenerateDisplayTime(task);
- // displayTime += "<br>" + GenerateTaskStartTime(task);
     return `<div id="${task.id}" class="task-widget">
         <h3 class="widgetName">${task.title}</h3>
         <p><div class="widgetTime" id="${task.id}-time">${displayTime}</div></p>
