@@ -3,6 +3,7 @@
 A simple little tracker for tasks made into a browser extension for Chrome-based browsers. 
 <br>
 Simple, yet functional.
+To use this, at present (as far as I'm aware), one must download the source code and run it as an unpacked browser extension.
 
 ## Improvements to be done: 
 <ol>
