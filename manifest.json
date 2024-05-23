@@ -1,0 +1,25 @@
+{
+    "manifest_version": 3,
+    "name": "Time Tracker",
+    "version": "1.0",
+    "description": "Track your time spent on different tasks",
+    "permissions": [
+        "clipboardRead",
+        "storage"
+    ],
+    "icons": {
+            "128": "img/icons128.png", 
+            "48": "img/icons48.png",    
+            "16": "img/icons16.png"      
+    },
+    "background": {
+        "service_worker": "service_worker.js",
+        "type": "module"
+    },
+    "content_security_policy": {
+        "extension_pages": "script-src 'self'; object-src 'self'"
+    },
+    "action": {
+        "default_icon": "img/icons16.png"
+    }
+}
