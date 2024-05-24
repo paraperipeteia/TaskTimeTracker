@@ -1,5 +1,7 @@
 # Task time tracker 
 
+![preview](timeTrackerScreenshot.png)
+
 A simple little tracker for tasks made into a browser extension for Chrome-based browsers. 
 <br>
 Simple, yet functional.
